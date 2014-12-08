@@ -3,8 +3,8 @@
 
 using namespace std;
 
-#define COUNT 26
-#define FIRST 'a'
+#define COUNT 127
+#define FIRST 1
 #define MAXINT ((unsigned int)(-1) >> 1)
 
 class Solution
@@ -21,7 +21,7 @@ private:
 public:
 	string minWindow(string Ori, string Sub)
 	{
-		decltype(W.size()) minWindow = MAXINT, endIndex = 0;
+		decltype(W.size()) minWindow = MAXINT, endIndex = -1;
 		int cs[COUNT] = { 0 }, cw[COUNT] = { 0 };
 		cnt_s = cs;
 		cnt_w = cw;
@@ -32,7 +32,7 @@ public:
 		}
 
 		/*Shift Window*/
-		for (decltype(W.size()) i = 0; i < Ori.size(); ++i){
+		for (decltype(Ori.size()) i = 0; i < Ori.size(); ++i){
 			char ch = Ori[i];
 			AppendW(ch);
 			if (CheckWindow() && (W.size() < minWindow)){
@@ -42,7 +42,7 @@ public:
 		}
 
 		/*Output Minimum Window*/
-		if (endIndex == 0) {
+		if (endIndex == -1) {
 			return "";
 		}
 		else {
@@ -53,27 +53,30 @@ public:
 
 
 void Solution::AppendW(char ch){
-	Solution::W += ch;
-	Solution::cnt_w[ch - FIRST]++;
-	Solution::ClearRedundancy();
+	W += ch;
+	cnt_w[ch - FIRST]++;
+	ClearRedundancy();
 }
 
 void Solution::PopW(){
-	Solution::cnt_w[W[0] - FIRST]--;
-	Solution::W.erase(Solution::W.begin());
-	Solution::ClearRedundancy();
+	cnt_w[W[0] - FIRST]--;
+	W.erase(W.begin());
+	ClearRedundancy();
 }
 
 void Solution::ClearRedundancy(){
-	char ch = Solution::W[0];
-	if (Solution::cnt_w[ch - FIRST] > Solution::cnt_s[ch - FIRST]){
-		Solution::PopW();
+	if (W.empty()) {
+		return;
+	}
+	char ch = W[0];
+	if (cnt_w[ch - FIRST] > cnt_s[ch - FIRST]){
+		PopW();
 	}
 }
 
 bool Solution::CheckWindow(){
 	for (int i = 0; i < COUNT; ++i){
-		if (Solution::cnt_w[i] < Solution::cnt_s[i]){
+		if (cnt_w[i] < cnt_s[i]){
 			return false;
 		}
 	}
