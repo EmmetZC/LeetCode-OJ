@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Search a 2D Matrix", "Search a 2D Matrix\Search a 2D Matrix.vcxproj", "{C1F19E99-D3E4-4DC4-B368-0BA88CEA632A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Binary Tree Level Order Traversal II", "Binary Tree Level Order Traversal II\Binary Tree Level Order Traversal II.vcxproj", "{A163F276-07E2-40B3-978C-96DA2EE3650E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Count and Say", "Count and Say\Count and Say.vcxproj", "{A9F17CCD-BEC2-48B2-99CF-AD7D54112B85}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Minimum Window Substring", "Minimum Window Substring\Minimum Window Substring.vcxproj", "{32F84D19-D35A-44E8-9295-DB881C3F2290}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1F19E99-D3E4-4DC4-B368-0BA88CEA632A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C1F19E99-D3E4-4DC4-B368-0BA88CEA632A}.Debug|Win32.Build.0 = Debug|Win32
+		{C1F19E99-D3E4-4DC4-B368-0BA88CEA632A}.Release|Win32.ActiveCfg = Release|Win32
+		{C1F19E99-D3E4-4DC4-B368-0BA88CEA632A}.Release|Win32.Build.0 = Release|Win32
+		{A163F276-07E2-40B3-978C-96DA2EE3650E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A163F276-07E2-40B3-978C-96DA2EE3650E}.Debug|Win32.Build.0 = Debug|Win32
+		{A163F276-07E2-40B3-978C-96DA2EE3650E}.Release|Win32.ActiveCfg = Release|Win32
+		{A163F276-07E2-40B3-978C-96DA2EE3650E}.Release|Win32.Build.0 = Release|Win32
+		{A9F17CCD-BEC2-48B2-99CF-AD7D54112B85}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A9F17CCD-BEC2-48B2-99CF-AD7D54112B85}.Debug|Win32.Build.0 = Debug|Win32
+		{A9F17CCD-BEC2-48B2-99CF-AD7D54112B85}.Release|Win32.ActiveCfg = Release|Win32
+		{A9F17CCD-BEC2-48B2-99CF-AD7D54112B85}.Release|Win32.Build.0 = Release|Win32
+		{32F84D19-D35A-44E8-9295-DB881C3F2290}.Debug|Win32.ActiveCfg = Debug|Win32
+		{32F84D19-D35A-44E8-9295-DB881C3F2290}.Debug|Win32.Build.0 = Debug|Win32
+		{32F84D19-D35A-44E8-9295-DB881C3F2290}.Release|Win32.ActiveCfg = Release|Win32
+		{32F84D19-D35A-44E8-9295-DB881C3F2290}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
