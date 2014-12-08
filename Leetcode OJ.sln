@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Count and Say", "Count and 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Minimum Window Substring", "Minimum Window Substring\Minimum Window Substring.vcxproj", "{32F84D19-D35A-44E8-9295-DB881C3F2290}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Find Peak Element", "Find Peak Element\Find Peak Element.vcxproj", "{529024CA-850E-4906-9EEB-9E5805035D81}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -33,6 +35,10 @@ Global
 		{32F84D19-D35A-44E8-9295-DB881C3F2290}.Debug|Win32.Build.0 = Debug|Win32
 		{32F84D19-D35A-44E8-9295-DB881C3F2290}.Release|Win32.ActiveCfg = Release|Win32
 		{32F84D19-D35A-44E8-9295-DB881C3F2290}.Release|Win32.Build.0 = Release|Win32
+		{529024CA-850E-4906-9EEB-9E5805035D81}.Debug|Win32.ActiveCfg = Debug|Win32
+		{529024CA-850E-4906-9EEB-9E5805035D81}.Debug|Win32.Build.0 = Debug|Win32
+		{529024CA-850E-4906-9EEB-9E5805035D81}.Release|Win32.ActiveCfg = Release|Win32
+		{529024CA-850E-4906-9EEB-9E5805035D81}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
