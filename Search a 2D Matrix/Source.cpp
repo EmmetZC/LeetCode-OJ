@@ -35,7 +35,6 @@ public:
 	}
 };
 
-
 int main(){
 	vector<vector<int> > matrix = { { 1, 1 }, { 3, 3 } };
 
