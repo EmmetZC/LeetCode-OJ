@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Search a 2D Matrix", "Search a 2D Matrix\Search a 2D Matrix.vcxproj", "{C1F19E99-D3E4-4DC4-B368-0BA88CEA632A}"
 EndProject
@@ -18,6 +18,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Reverse Words in a String", "Reverse Words in a String\Reverse Words in a String.vcxproj", "{7E9CED57-2D61-4AA1-A535-A5864F8425CC}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Word Ladder II", "Word Ladder II\Word Ladder II.vcxproj", "{5FF11CAC-72FB-45C9-BF07-4EA3ABC18FF7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Two Sum", "Two Sum\Two Sum.vcxproj", "{4AAF2734-1A07-4DC5-8D15-73337DBB0FC9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{5FF11CAC-72FB-45C9-BF07-4EA3ABC18FF7}.Debug|Win32.Build.0 = Debug|Win32
 		{5FF11CAC-72FB-45C9-BF07-4EA3ABC18FF7}.Release|Win32.ActiveCfg = Release|Win32
 		{5FF11CAC-72FB-45C9-BF07-4EA3ABC18FF7}.Release|Win32.Build.0 = Release|Win32
+		{4AAF2734-1A07-4DC5-8D15-73337DBB0FC9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4AAF2734-1A07-4DC5-8D15-73337DBB0FC9}.Debug|Win32.Build.0 = Debug|Win32
+		{4AAF2734-1A07-4DC5-8D15-73337DBB0FC9}.Release|Win32.ActiveCfg = Release|Win32
+		{4AAF2734-1A07-4DC5-8D15-73337DBB0FC9}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
