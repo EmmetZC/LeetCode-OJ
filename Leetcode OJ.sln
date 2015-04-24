@@ -25,6 +25,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Add Two Numbers", "Add Two 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NQueens", "NQueens\NQueens.vcxproj", "{C9E90721-2C38-4CBA-AF3D-96CCA0A88156}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FrogJump", "FrogJump\FrogJump.vcxproj", "{2CCBF5A8-12F7-46B5-A3B1-5FB12A1EA643}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -75,6 +77,10 @@ Global
 		{C9E90721-2C38-4CBA-AF3D-96CCA0A88156}.Debug|Win32.Build.0 = Debug|Win32
 		{C9E90721-2C38-4CBA-AF3D-96CCA0A88156}.Release|Win32.ActiveCfg = Release|Win32
 		{C9E90721-2C38-4CBA-AF3D-96CCA0A88156}.Release|Win32.Build.0 = Release|Win32
+		{2CCBF5A8-12F7-46B5-A3B1-5FB12A1EA643}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2CCBF5A8-12F7-46B5-A3B1-5FB12A1EA643}.Debug|Win32.Build.0 = Debug|Win32
+		{2CCBF5A8-12F7-46B5-A3B1-5FB12A1EA643}.Release|Win32.ActiveCfg = Release|Win32
+		{2CCBF5A8-12F7-46B5-A3B1-5FB12A1EA643}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
