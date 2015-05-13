@@ -27,6 +27,13 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NQueens", "NQueens\NQueens.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FrogJump", "FrogJump\FrogJump.vcxproj", "{2CCBF5A8-12F7-46B5-A3B1-5FB12A1EA643}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TSP", "TSP\TSP.vcxproj", "{4D5DF284-7BA8-4DD5-A59E-33B01C4253C0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1B3E68CB-1E09-4E5B-9099-684C5365D149}"
+	ProjectSection(SolutionItems) = preProject
+		Performance1.psess = Performance1.psess
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -81,6 +88,10 @@ Global
 		{2CCBF5A8-12F7-46B5-A3B1-5FB12A1EA643}.Debug|Win32.Build.0 = Debug|Win32
 		{2CCBF5A8-12F7-46B5-A3B1-5FB12A1EA643}.Release|Win32.ActiveCfg = Release|Win32
 		{2CCBF5A8-12F7-46B5-A3B1-5FB12A1EA643}.Release|Win32.Build.0 = Release|Win32
+		{4D5DF284-7BA8-4DD5-A59E-33B01C4253C0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4D5DF284-7BA8-4DD5-A59E-33B01C4253C0}.Debug|Win32.Build.0 = Debug|Win32
+		{4D5DF284-7BA8-4DD5-A59E-33B01C4253C0}.Release|Win32.ActiveCfg = Release|Win32
+		{4D5DF284-7BA8-4DD5-A59E-33B01C4253C0}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
