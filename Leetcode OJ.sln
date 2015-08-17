@@ -35,6 +35,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Dungeon Game", "Dungeon Gam
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sliding Window Maximum", "Sliding Window Maximum\Sliding Window Maximum.vcxproj", "{600543A9-FD40-4463-A157-E1299D95197F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Edit Distance", "Edit Distance\Edit Distance.vcxproj", "{29F81046-010D-488C-A80F-D95CE86D5D70}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -101,6 +103,10 @@ Global
 		{600543A9-FD40-4463-A157-E1299D95197F}.Debug|Win32.Build.0 = Debug|Win32
 		{600543A9-FD40-4463-A157-E1299D95197F}.Release|Win32.ActiveCfg = Release|Win32
 		{600543A9-FD40-4463-A157-E1299D95197F}.Release|Win32.Build.0 = Release|Win32
+		{29F81046-010D-488C-A80F-D95CE86D5D70}.Debug|Win32.ActiveCfg = Debug|Win32
+		{29F81046-010D-488C-A80F-D95CE86D5D70}.Debug|Win32.Build.0 = Debug|Win32
+		{29F81046-010D-488C-A80F-D95CE86D5D70}.Release|Win32.ActiveCfg = Release|Win32
+		{29F81046-010D-488C-A80F-D95CE86D5D70}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
