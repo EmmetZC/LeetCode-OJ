@@ -37,6 +37,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sliding Window Maximum", "S
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Edit Distance", "Edit Distance\Edit Distance.vcxproj", "{29F81046-010D-488C-A80F-D95CE86D5D70}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Word Ladder", "Word Ladder\Word Ladder.vcxproj", "{98D0062D-BC30-4180-815A-DC1425EE4F1C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -107,6 +109,10 @@ Global
 		{29F81046-010D-488C-A80F-D95CE86D5D70}.Debug|Win32.Build.0 = Debug|Win32
 		{29F81046-010D-488C-A80F-D95CE86D5D70}.Release|Win32.ActiveCfg = Release|Win32
 		{29F81046-010D-488C-A80F-D95CE86D5D70}.Release|Win32.Build.0 = Release|Win32
+		{98D0062D-BC30-4180-815A-DC1425EE4F1C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{98D0062D-BC30-4180-815A-DC1425EE4F1C}.Debug|Win32.Build.0 = Debug|Win32
+		{98D0062D-BC30-4180-815A-DC1425EE4F1C}.Release|Win32.ActiveCfg = Release|Win32
+		{98D0062D-BC30-4180-815A-DC1425EE4F1C}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
