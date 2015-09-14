@@ -4,7 +4,8 @@
 #include <unordered_set>
 #include <queue>
 #include <stack>
-#include <hash_map>
+#include <algorithm>
+#include <map>
 
 using namespace std;
 
@@ -13,14 +14,15 @@ private:
 
 public:
 	vector<vector<string>> findLadders(string start, string end, unordered_set<string> &dict) {
-		hash_map<string, unordered_set<string>> prevMap;
-		unordered_set<string> nDict(dict);
+		map<string, unordered_set<string>> prevMap;
+		unordered_set<string> nDict(dict.begin(), dict.end());
+		nDict.insert(end);
 		queue<string> bfs;
 		bool reachEnd = false;	// After reachEnd, no more level needs searching
-		unsigned len = 0;
-		nDict.insert(end);
 		bfs.push("");
 		bfs.push(start);
+
+		unordered_set<string> toErase;
 
 		while (bfs.size() > 1) {
 			auto tmpStr = bfs.front();
@@ -31,7 +33,10 @@ public:
 				if (reachEnd) {
 					break;
 				}
-				len++;
+				for (auto str : toErase) {
+					nDict.erase(str);
+				}
+				toErase.clear();
 				continue;
 			}
 			for (unsigned i = 0; i < tmpStr.size(); ++i) {
@@ -48,13 +53,13 @@ public:
 						if (neighbor == end) {
 							prevMap.emplace(end, unordered_set<string>({ tmpStr }));
 							reachEnd = true;
-							len++;
 						} else {
-							if (neighbor != tmpStr && dict.find(neighbor) != dict.end()) {		// No need to consider the `endWord` here
+							if (neighbor != tmpStr && nDict.find(neighbor) != nDict.end()) {
 								if (prevMap.find(neighbor) != prevMap.end()) {	// Already exists
 									prevMap.at(neighbor).insert(tmpStr);
-								} else {										// First time getting neighbor
+								} else {										// First time to get neighbor
 									bfs.push(neighbor);
+									toErase.insert(neighbor);
 									prevMap.emplace(neighbor, unordered_set<string>({ tmpStr }));
 								}
 							}
@@ -63,13 +68,29 @@ public:
 				}
 			}
 		}
-
+		
+		if (prevMap.find(end) == prevMap.end()) {	// Cannot reach end
+			return vector<vector<string>>();
+		}
+		
 		vector<vector<string>> ladders(1, vector<string>({ end }));
 
-		for (auto i = 1u; i < len; ++i) {
-			for (auto iter = ladders.begin(); iter != ladders.end(); ++iter) {
-				auto tmpStr = *iter;
-				iter = ladders.erase(iter);
+		while (true) {
+			auto iterLadder = ladders.begin();
+			auto partLadder = *iterLadder;
+			auto first = partLadder.front();
+
+			if (first == start) {
+				break;
+			}
+
+			ladders.erase(iterLadder);
+
+			auto prev = prevMap.at(first);
+			for (auto iterPrev = prev.begin(); iterPrev != prev.end(); ++iterPrev) {
+				auto tmpLadder(partLadder);
+				tmpLadder.insert(tmpLadder.begin(), *iterPrev);
+				ladders.push_back(tmpLadder);
 			}
 		}
 

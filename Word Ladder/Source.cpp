@@ -6,17 +6,6 @@
 using namespace std;
 
 class Solution {
-private:
-	unsigned getDistance(string a, string b) {
-		unsigned diffCount = 0;
-
-		for (unsigned i = 0; i < a.size(); ++i) {
-			if (a[i] != b[i]) {
-				diffCount++;
-			}
-		}
-		return diffCount;
-	}
 public:
 	int ladderLength(string beginWord, string endWord, unordered_set<string>& wordDict) {
 		unordered_set<string> dict(wordDict);
