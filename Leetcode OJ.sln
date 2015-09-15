@@ -41,6 +41,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Word Ladder", "Word Ladder\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Sum of Groups", "Sum of Groups\Sum of Groups.vcxproj", "{F830355A-A795-41F1-8E01-31C1BEFD47C7}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Word Ladder II (Optimised)", "Word Ladder II (Optimised)\Word Ladder II (Optimised).vcxproj", "{A6259E3D-ADD3-4F20-AC2F-BF75C35D2A79}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -119,6 +121,10 @@ Global
 		{F830355A-A795-41F1-8E01-31C1BEFD47C7}.Debug|Win32.Build.0 = Debug|Win32
 		{F830355A-A795-41F1-8E01-31C1BEFD47C7}.Release|Win32.ActiveCfg = Release|Win32
 		{F830355A-A795-41F1-8E01-31C1BEFD47C7}.Release|Win32.Build.0 = Release|Win32
+		{A6259E3D-ADD3-4F20-AC2F-BF75C35D2A79}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A6259E3D-ADD3-4F20-AC2F-BF75C35D2A79}.Debug|Win32.Build.0 = Debug|Win32
+		{A6259E3D-ADD3-4F20-AC2F-BF75C35D2A79}.Release|Win32.ActiveCfg = Release|Win32
+		{A6259E3D-ADD3-4F20-AC2F-BF75C35D2A79}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
