@@ -83,7 +83,7 @@ public:
 void main() {
 	string start = "a";
 	string end = "b";
-	unordered_set<string> dict = { "a", "b", "c" };
+	unordered_set<string> dict = { "a", "b", "c", "d" };
 	Solution s;
 	vector<vector<string>> ladders = s.findLadders(start, end, dict);
 	for (auto l : ladders) {
