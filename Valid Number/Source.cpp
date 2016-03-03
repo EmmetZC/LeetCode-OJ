@@ -54,6 +54,4 @@ public:
 };
 
 int main() {
-	string s = "  ";
-	cout << (s[2] == '\0') << endl;
 }
