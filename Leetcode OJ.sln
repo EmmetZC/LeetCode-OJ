@@ -49,6 +49,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Valid Number", "Valid Numbe
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Longest Valid Parentheses", "Longest Valid Parentheses\Longest Valid Parentheses.vcxproj", "{4505CA0D-6B4E-4D2C-B2D8-869716AF09FC}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LRU Cache", "LRU Cache\LRU Cache.vcxproj", "{E730088E-21E8-40D2-9D79-48369757DFAC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -143,6 +145,10 @@ Global
 		{4505CA0D-6B4E-4D2C-B2D8-869716AF09FC}.Debug|Win32.Build.0 = Debug|Win32
 		{4505CA0D-6B4E-4D2C-B2D8-869716AF09FC}.Release|Win32.ActiveCfg = Release|Win32
 		{4505CA0D-6B4E-4D2C-B2D8-869716AF09FC}.Release|Win32.Build.0 = Release|Win32
+		{E730088E-21E8-40D2-9D79-48369757DFAC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E730088E-21E8-40D2-9D79-48369757DFAC}.Debug|Win32.Build.0 = Debug|Win32
+		{E730088E-21E8-40D2-9D79-48369757DFAC}.Release|Win32.ActiveCfg = Release|Win32
+		{E730088E-21E8-40D2-9D79-48369757DFAC}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
