@@ -47,6 +47,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LCS", "LCS\LCS.vcxproj", "{
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Valid Number", "Valid Number\Valid Number.vcxproj", "{5EB9A290-671F-414B-9926-B11E440EEBDC}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Longest Valid Parentheses", "Longest Valid Parentheses\Longest Valid Parentheses.vcxproj", "{4505CA0D-6B4E-4D2C-B2D8-869716AF09FC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -137,6 +139,10 @@ Global
 		{5EB9A290-671F-414B-9926-B11E440EEBDC}.Debug|Win32.Build.0 = Debug|Win32
 		{5EB9A290-671F-414B-9926-B11E440EEBDC}.Release|Win32.ActiveCfg = Release|Win32
 		{5EB9A290-671F-414B-9926-B11E440EEBDC}.Release|Win32.Build.0 = Release|Win32
+		{4505CA0D-6B4E-4D2C-B2D8-869716AF09FC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4505CA0D-6B4E-4D2C-B2D8-869716AF09FC}.Debug|Win32.Build.0 = Debug|Win32
+		{4505CA0D-6B4E-4D2C-B2D8-869716AF09FC}.Release|Win32.ActiveCfg = Release|Win32
+		{4505CA0D-6B4E-4D2C-B2D8-869716AF09FC}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
