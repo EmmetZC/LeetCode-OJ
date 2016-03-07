@@ -11,7 +11,6 @@ struct TreeNode {
 	TreeNode(int x) : val(x), left(NULL), right(NULL) {}
 };
 
-#include <algorithm>
 struct QueueNode {
 	TreeNode *node;
 	int level;
